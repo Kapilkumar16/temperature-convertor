@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <main>
+        <h1>Temperature Convertor</h1>
+        <div class="hero">
+            <label class="main-tittle">Fahrenheit</label>
+            <input type="number" placeholder="Enter The Temperature" id="inputtext"  oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+            <div class="unit">
+                
+                <p class="btn">Celcius: <span id="outputCelcius"></span></p>
+                <p class="btn">Kelvin : <span id="ot"></span></p>
+
+            </div>
+        </div>          
+    </main>
+</body>
+<script src="app.js" defer></script>
+</html>
